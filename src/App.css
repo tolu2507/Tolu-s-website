@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+    background-color: #34353A;
+    margin:0;
+    padding:0
 }
 
 .App-logo {
@@ -12,22 +15,266 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+#contact{
+  background-color: #595b64;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.port{
+      border-radius: 10px;
+        background-color: #bbc2e8;
+        display: flex;
+        flex-direction: column;
+        padding: 5px 0px;
+        width: 15rem;
+        height: 21rem;
+          margin: 25px;
+    
+}
+.port :hover{
+  background-color: #7c808f;
+}
+.portfolios{
+  margin:5px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* width:75%; */
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#ul{
+  width:45%
 }
+.nav{
+  /* background-color: aliceblue; */
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+  padding: 0px 10px;
+  border-bottom:1px bisque solid;
+}
+.nav ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width:15rem;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+:any-link{
+  color: #282c34;
+  text-decoration: none;
+}
+.lin{
 
+      border-radius: 10px;
+      border: none;
+      color: bisque
+  }
+.lin:hover{
+        padding: 3px 12px;
+  background-color: none;
+  color:bisque;
+  border-bottom: 1px bisque solid;
+  border-left: 1px #7c808f solid;
+  border-radius: 10px;
+}
+.header-body{
+  /* border: 1px white solid; */
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 4rem 0rem 4rem
+}
+.button{
+  background-color: transparent;
+  border: 1px goldenrod solid;
+  padding:10px;
+  border-radius: 10px;
+  color: aliceblue;
+}
+.button:hover{
+    background-color: bisque;
+      color: #282c34;
+        border: 0px goldenrod solid;
+}
+.header-body-text{
+  /* border: 1px white solid; */
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  padding: 2rem;
+}
+.body-big-text{
+  color:bisque;
+  font-size:24px;
+  font-style: italic;
+  font-weight: bolder;
+  margin: 5px;
+}
+.straight-line{
+  height:70px;
+  width:2px;
+  background-color: antiquewhite;
+  align-self: center;
+  margin-bottom: 5px;
+}
+.span{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.header-body-image{
+  /* border: 1px white solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  /* padding: 2rem; */
+}
+.image-abs{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  bottom: 0;
+  margin-left: 300px;
+}
+.App-main {
+  background-color: #3D3E42;
+/* margin:15px; */
+padding:10px;
+}
+#projects{
+  background-color: #595b64;
+  padding:10px;
+  border-radius: 10px;
+}
+.main-about{
+      background-color: #34353A;
+      padding:10px;
+      border-radius: 20px;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 10px;
+}
+.main-skill {
+  background-color: #34353A;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  margin-bottom: 10px;
+}
+.side{
+  margin: 20px;
+  width: 10rem;
+  color:burlywood;;
+}
+.card{
+    background-color: #3D3E42;
+    width: 60px;
+    height: 60px;
+    margin:2px;
+    display:flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 12px;
+}
+.card-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      width: 30px;
+        height: 30px;
+            border-radius: 15px;
+}
+.card-images{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.card-lower{
+  font-size: 10px;
+  font-weight: 500;
+  color:burlywood;
+}
+.card-content{
+  display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+.experience-container{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.experience-lower{
+    font-size: 12px;
+      padding: 5px;
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      color:'#7c808f'
+}
+.experience-top{
+  font-size: 10px;
+  padding:5px;
+  background-color: #7c808f;
+  border-radius: 10px;
+}
+#experience{
+  margin-top: 10px;
+    background-color: #282c34;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+#design{
+    display: flex; 
+    align-items:center; 
+    justify-content:flex-end; 
+    flex-direction:row; 
+    width:100%;
+    color:burlywood;
+    /* padding:0px 10px */
+  }
+.line{
+  border-left: 2px burlywood solid;
+  margin-right: 10px;
+  padding: 5px;
+}
+.App-footer{
+height: 100%;
+padding: 10px;
+display:flex;
+align-items: center;
+justify-content: center;
+color: #7c808f;
+font-weight: 700;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
